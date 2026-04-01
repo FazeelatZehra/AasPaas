@@ -3,7 +3,15 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChang
 import { getFirestore, collection, doc, setDoc, getDoc, getDocs, query, where, orderBy, onSnapshot, addDoc, updateDoc, deleteDoc, getDocFromServer } from 'firebase/firestore';
 
 // Import the Firebase configuration
-import firebaseConfig from '../../firebase-applet-config.json';
+const firebaseConfig = {
+  apiKey: "AIzaSyA4UjFwg5YceYJGnWs_h5eC1XmWdjXatWQ",
+  authDomain: "aaspaas-app-308f7.firebaseapp.com",
+  projectId: "aaspaas-app-308f7",
+  storageBucket: "aaspaas-app-308f7.firebasestorage.app",
+  messagingSenderId: "707938822578",
+  appId: "1:707938822578:web:744ae846622ca988bddcab",
+  measurementId: "G-TQE75EQ7ZJ"
+};
 
 // Initialize Firebase SDK
 const app = initializeApp(firebaseConfig);
