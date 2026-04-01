@@ -5,12 +5,11 @@ import { getFirestore, collection, doc, setDoc, getDoc, getDocs, query, where, o
 // Import the Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyA4UjFwg5YceYJGnWs_h5eC1XmWdjXatWQ",
-  authDomain: "aaspaas-app.firebaseapp.com",
+  authDomain: "aaspaas-app-308f7.firebaseapp.com",
   projectId: "aaspaas-app-308f7",
   storageBucket: "aaspaas-app-308f7.firebasestorage.app",
   messagingSenderId: "707938822578",
-  appId: "1:707938822578:web:744ae846622ca988bddcab",
-  measurementId: "G-TQE75EQ7ZJ"
+  appId: "1:707938822578:web:744ae846622ca988bddcab"
 };
 
 // Initialize Firebase SDK
