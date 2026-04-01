@@ -1,0 +1,7 @@
+{
+  "name": "AasPaas",
+  "description": "An AI-powered hyperlocal marketplace connecting users with nearby small and unregistered businesses.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
